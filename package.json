@@ -1,0 +1,46 @@
+{
+	"name": "theme-wubba-lubba-dub-dub",
+	"displayName": "Wubba Lubba Dub Dub!",
+	"description": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come watch TV.",
+	"publisher": "timon-schelling",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Wubba Lubba Dub Dub!",
+				"id": "wubba-lubba-dub-dub",
+				"path": "./themes/wubba-lubba-dub-dub.json",
+				"uiTheme": "vs-dark"
+			}
+		],
+		"iconThemes": [
+			{
+				"label": "Wubba Lubba Dub Dub!",
+				"id": "wubba-lubba-dub-dub-icons",
+				"path": "./icon-themes/wubba-lubba-dub-dub.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"vscode": "^1.0.0"
+	},
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"icon": "icon.png",
+	"dependencies": {
+		"vsce": "^2.7.0"
+	}
+}

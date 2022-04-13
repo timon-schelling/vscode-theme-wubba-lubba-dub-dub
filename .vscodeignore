@@ -1,0 +1,6 @@
+**
+!.vscodeignore
+!themes
+!icon-themes
+!icon.png
+!package.json
