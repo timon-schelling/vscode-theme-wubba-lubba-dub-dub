@@ -3,7 +3,7 @@
 	"displayName": "Wubba Lubba Dub Dub!",
 	"description": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come watch TV.",
 	"publisher": "timon-schelling",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"engines": {
 		"vscode": "^1.14.0"
 	},
